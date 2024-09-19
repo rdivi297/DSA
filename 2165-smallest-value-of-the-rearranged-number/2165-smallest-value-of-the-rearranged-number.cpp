@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long smallestNumber(long long num) {
-        if(num==0) return 0;
+       
         vector<int>ans;
         bool flag= false;
        if(num<0) flag =true;
