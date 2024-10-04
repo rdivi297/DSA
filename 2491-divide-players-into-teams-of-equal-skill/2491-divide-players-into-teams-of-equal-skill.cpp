@@ -6,9 +6,8 @@ public:
         long long ans=0;
         int h=skill.size()-1;
         while(l<h){
-            ans+=skill[l]*skill[h];
-            l++;
-            h--;
+            ans+=skill[l++]*skill[h--];
+           
         }
         int sum=skill[0]+skill[skill.size()-1];
         l=1;
